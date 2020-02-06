@@ -16,4 +16,4 @@ class NcovVirusSpider(scrapy.Spider):
     start_urls = ['https://news.sina.cn/zt_d/yiqing0121?from=singlemessage&isappinstalled=0']
 
     def parse(self, response):
-        pass
+        list=response.xpath()
