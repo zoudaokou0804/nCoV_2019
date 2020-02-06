@@ -19,6 +19,3 @@ class Ncov2019Pipeline(object):
     def clos_spider():
         self.cursor.close()
         self.connect.close()
-		
-    #def process_item(self, item, spider):
-        #return item
